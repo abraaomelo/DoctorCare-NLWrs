@@ -14,3 +14,16 @@ function openMenu(){
 function closeMenu(){
     document.body.classList.remove('menu-expanded')
 }
+
+function ScrollReveal() {
+    var options = {
+        reveal:function() {}
+    }
+    return options
+}
+
+ScrollReveal({
+    origin: 'left',
+    distance:  '30px',
+    duration: 700,
+}).reveal('#home')
